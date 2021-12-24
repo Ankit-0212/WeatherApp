@@ -1,8 +1,6 @@
 body {
     margin: 0;
-    background:url("./img/valentin-muller-bWtd1ZyEy6w-unsplash.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(papayawhip, white);
     display: flex;
     justify-content: center;
     align-items: center;
