@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weatherapp/static/css/main.712e4bab.css",
+    "main.js": "/weatherapp/static/js/main.2adeb5a3.js",
+    "static/media/valentin-muller-bWtd1ZyEy6w-unsplash.jpg": "/weatherapp/static/media/valentin-muller-bWtd1ZyEy6w-unsplash.4e942c9bbeb877f34414.jpg",
+    "index.html": "/weatherapp/index.html",
+    "main.712e4bab.css.map": "/weatherapp/static/css/main.712e4bab.css.map",
+    "main.2adeb5a3.js.map": "/weatherapp/static/js/main.2adeb5a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.712e4bab.css",
+    "static/js/main.2adeb5a3.js"
+  ]
+}
