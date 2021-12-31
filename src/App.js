@@ -22,13 +22,15 @@ export const WeatherIcons = {
 };
 
 const Container = styled.div`
+background: rgba(255, 255, 255, 0.2) !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 380px;
+  width: 80vw;
+  height: 80vh;
   padding: 20px 10px;
   margin: auto;
-  border-radius: 4px;
+  border-radius: 10px;
   box-shadow: 0 3px 6px 0 #555;
   background: white;
   font-family: Montserrat;
@@ -59,7 +61,7 @@ function App() {
     updateWeather(response.data);
   };
   return (
-    <Container>
+    <Container className="card">
       <AppLabel>React Weather App</AppLabel>
       {city && weather ? (
         <WeatherComponent weather={weather} city={city} />

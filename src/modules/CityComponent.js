@@ -16,6 +16,9 @@ const SearchBox = styled.form`
     outline: none;
     font-family: Montserrat;
     font-weight: bold;
+    width: 50vw;
+    
+    
   }
   & button {
     background-color: black;
@@ -31,7 +34,10 @@ const SearchBox = styled.form`
 `;
 const ChooseCityLabel = styled.span`
   color: black;
-  margin: 10px auto;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   font-weight: bold;
 `;
