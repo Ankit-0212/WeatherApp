@@ -74,6 +74,15 @@ const InfoLabel = styled.span`
     text-transform: capitalize;
   }
 `;
+const CloseButton = styled.span`
+  padding: 2px 3px;
+  background-color: black;
+  color: white;
+  position: relative;
+  left: 95%;
+  top: -80%;
+  cursor: pointer;
+`;
 
 const WeatherInfoComponent = (props) => {
     const {name, value} = props;
@@ -93,9 +102,14 @@ const WeatherComponent = (props) => {
     const getTime = (timeStamp) => {
         return `${new Date(timeStamp * 1000).getHours()} : ${new Date(timeStamp * 1000).getMinutes()}`
     }
+
+    const closeBtnHandler=()=>{
+      window.location.reload(false);
+    }
     return (
         <>
             <WeatherContainer>
+               <CloseButton onClick={closeBtnHandler}>X</CloseButton>
                 <Condition>
                     <span>{`${Math.floor(weather?.main?.temp - 273)}°C`}</span>
                     {`  |  ${weather?.weather[0].description}`}

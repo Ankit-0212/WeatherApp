@@ -22,12 +22,12 @@ export const WeatherIcons = {
 };
 
 const Container = styled.div`
-background: rgba(255, 255, 255, 0.2) !important;
+background: rgba(255, 255, 255, 0.5) !important;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80vw;
-  height: 80vh;
+  width: 90vw;
+  height: 90vh;
   padding: 20px 10px;
   margin: auto;
   border-radius: 10px;
@@ -42,13 +42,7 @@ const AppLabel = styled.span`
   font-size: 18px;
   font-weight: bold;
 `;
-const CloseButton = styled.span`
-  padding: 2px 3px;
-  background-color: black;
-  border-radius: 50%;
-  color: white;
-  position: absolute;
-`;
+
 
 function App() {
   const [city, updateCity] = useState();
@@ -68,6 +62,7 @@ function App() {
       ) : (
         <CityComponent updateCity={updateCity} fetchWeather={fetchWeather} />
       )}
+      
     </Container>
   );
 }

@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url("./img/valentin-muller-bWtd1ZyEy6w-unsplash.jpg");
+    background: url("./img/john-towner-JgOeRuGD_Y4-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -17,4 +17,5 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }

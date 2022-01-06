@@ -35,7 +35,7 @@ const SearchBox = styled.form`
 const ChooseCityLabel = styled.span`
   color: black;
   margin-top: 10px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
